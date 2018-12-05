@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 102104620}
   m_Layer: 0
   m_Name: 2AssaultRifle
-  m_TagString: Untagged
+  m_TagString: AssaultRifle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2842,7 +2842,7 @@ GameObject:
   - component: {fileID: 1508483151}
   m_Layer: 0
   m_Name: 3Shotgun
-  m_TagString: Untagged
+  m_TagString: Shotgun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3350,7 +3350,7 @@ GameObject:
   - component: {fileID: 1885056645}
   m_Layer: 0
   m_Name: 1Pistol
-  m_TagString: Untagged
+  m_TagString: Pistol
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
