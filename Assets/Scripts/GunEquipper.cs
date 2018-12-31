@@ -9,6 +9,8 @@ public class GunEquipper : MonoBehaviour {
     public GameObject pistol;
     public GameObject assaultRifle;
     public GameObject shotgun;
+    [SerializeField]
+    public GameUI gameUI;
 
     GameObject activeGun;
 
@@ -26,17 +28,21 @@ public class GunEquipper : MonoBehaviour {
         {
             loadWeapon(pistol);
             activeWeaponType = Constants.Pistol;
+            gameUI.UpdateReicle();
         } 
         else if (Input.GetKeyDown("2"))
         {
             loadWeapon(assaultRifle);
             activeWeaponType = Constants.AssaultRifle;
+            gameUI.UpdateReicle();
         }
         else if (Input.GetKeyDown("3"))
         {
             loadWeapon(shotgun);
             activeWeaponType = Constants.Shotgun;
+            gameUI.UpdateReicle();
         }
+
     }
 
     /// <summary>
