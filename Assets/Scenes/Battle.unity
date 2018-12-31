@@ -558,6 +558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 102104620}
   - component: {fileID: 102104621}
+  - component: {fileID: 102104622}
   m_Layer: 0
   m_Name: 2AssaultRifle
   m_TagString: AssaultRifle
@@ -591,6 +592,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 0
+--- !u!95 &102104622
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102104619}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a8dd7506f95e7d946a1030be85c479db, type: 3}
+  m_Controller: {fileID: 9100000, guid: a43d310e62792488ab645c66879cc2c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &130301866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,6 +2888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508483151}
   - component: {fileID: 1508483152}
+  - component: {fileID: 1508483153}
   m_Layer: 0
   m_Name: 3Shotgun
   m_TagString: Shotgun
@@ -2902,6 +2922,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 1
+--- !u!95 &1508483153
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508483150}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6f08686d23bef304a93c7f4af1e8f17c, type: 3}
+  m_Controller: {fileID: 9100000, guid: a3f1eb8978d12438f84b8946e476c9b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1512617892
 Transform:
   m_ObjectHideFlags: 0
@@ -3390,6 +3428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885056645}
   - component: {fileID: 1885056646}
+  - component: {fileID: 1885056647}
   m_Layer: 0
   m_Name: 1Pistol
   m_TagString: Pistol
@@ -3423,6 +3462,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 0.6
+--- !u!95 &1885056647
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1885056644}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: e4be631cda7f47448a35b76f4af4ab7d, type: 3}
+  m_Controller: {fileID: 9100000, guid: 10c2e5dd470b04f2685f1c26afcf846d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1901933827
 GameObject:
   m_ObjectHideFlags: 0
