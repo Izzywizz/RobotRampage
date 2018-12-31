@@ -17,8 +17,9 @@ public class Gun : MonoBehaviour {
 
     }
 
-    protected void Fire() // Remeeber each weapon fire will have its own slight variable on these methods
+    protected void Fire() // Remember each weapon fire will have its own slight variable on these methods
     {
-
+        //
+        GetComponentInChildren<Animator>().Play("Fire");
     }
 }

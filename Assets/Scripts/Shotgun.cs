@@ -11,7 +11,8 @@ public class Shotgun : Gun
         if (Input.GetMouseButtonDown(0) && (Time.time - lastFireTime) > fireRate)//checks whether enough time has elapsed between shots to allow for another
         { //if it has, then trigger fire animation
             lastFireTime = Time.time;
-            Fire();
+            base.Fire();
+
         }
     }
 
