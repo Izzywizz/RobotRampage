@@ -12,7 +12,6 @@ public class AssaultRifle : Gun
         {
             lastFireTime = Time.time;
             Fire();
-            Debug.Log("Auto");
         }
     }
 }
