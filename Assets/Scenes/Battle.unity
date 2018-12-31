@@ -592,6 +592,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 0
+  ammo: {fileID: 559952247}
+  liveFire: {fileID: 8300000, guid: 58a99eae70737da4dab876e328c1acc3, type: 3}
+  dryFire: {fileID: 8300000, guid: c5e2aa78733fa304084e7ea8d288130b, type: 3}
 --- !u!95 &102104622
 Animator:
   serializedVersion: 3
@@ -1046,6 +1049,7 @@ GameObject:
   - component: {fileID: 559952243}
   - component: {fileID: 559952242}
   - component: {fileID: 559952246}
+  - component: {fileID: 559952247}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1297,6 +1301,21 @@ MonoBehaviour:
   assaultRifle: {fileID: 102104619}
   shotgun: {fileID: 1508483150}
   gameUI: {fileID: 880182448}
+--- !u!114 &559952247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559952241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a3ffe647833b4c518ef68eb78daf818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameUI: {fileID: 880182448}
+  pistolAmmo: 20
+  shotgunAmmo: 10
+  assaultRifleAmmo: 50
 --- !u!1 &576126798
 GameObject:
   m_ObjectHideFlags: 0
@@ -3097,6 +3116,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 1
+  ammo: {fileID: 559952247}
+  liveFire: {fileID: 8300000, guid: 6e986f34c5366444998e68d2bb475539, type: 3}
+  dryFire: {fileID: 8300000, guid: c5e2aa78733fa304084e7ea8d288130b, type: 3}
 --- !u!95 &1508483153
 Animator:
   serializedVersion: 3
@@ -3312,7 +3334,7 @@ GameObject:
   - component: {fileID: 1642659229}
   - component: {fileID: 1642659228}
   m_Layer: 5
-  m_Name: GameUI
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3731,6 +3753,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 0.6
+  ammo: {fileID: 559952247}
+  liveFire: {fileID: 8300000, guid: fc35b99cc2f26e042a912e28beb77816, type: 3}
+  dryFire: {fileID: 8300000, guid: c5e2aa78733fa304084e7ea8d288130b, type: 3}
 --- !u!95 &1885056647
 Animator:
   serializedVersion: 3
