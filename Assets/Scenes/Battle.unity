@@ -557,6 +557,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 102104620}
+  - component: {fileID: 102104621}
   m_Layer: 0
   m_Name: 2AssaultRifle
   m_TagString: AssaultRifle
@@ -578,6 +579,18 @@ Transform:
   m_Father: {fileID: 1645303585}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &102104621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102104619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d4b61b787c9445cc80e15d3e85969b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireRate: 0
 --- !u!1 &130301866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2855,6 +2868,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1508483151}
+  - component: {fileID: 1508483152}
   m_Layer: 0
   m_Name: 3Shotgun
   m_TagString: Shotgun
@@ -2876,6 +2890,18 @@ Transform:
   m_Father: {fileID: 1645303585}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508483152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508483150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a11cad075f8746b1abc426d0feb195b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireRate: 1
 --- !u!4 &1512617892
 Transform:
   m_ObjectHideFlags: 0
@@ -3363,6 +3389,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1885056645}
+  - component: {fileID: 1885056646}
   m_Layer: 0
   m_Name: 1Pistol
   m_TagString: Pistol
@@ -3384,6 +3411,18 @@ Transform:
   m_Father: {fileID: 1645303585}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885056646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1885056644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1a55fffe0074b61a5f0fc09572bc7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireRate: 0.6
 --- !u!1 &1901933827
 GameObject:
   m_ObjectHideFlags: 0

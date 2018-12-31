@@ -29,6 +29,8 @@ public class Constants
     public const string Game = "Game";
     public const float CameraDefaultZoom = 60f;
 
+    //readonly here means A static readonly variable is a reference, and consequently a lookup is performed any time this variable is accessed
+    //please refer to this article: A static readonly variable is a reference, and consequently a lookup is performed any time this variable is accessed
     public static readonly int[] AllPickupTypes = new int[5]
     {
         PickUpPistolAmmo,
