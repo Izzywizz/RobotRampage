@@ -1188,6 +1188,7 @@ GameObject:
   - component: {fileID: 559952242}
   - component: {fileID: 559952246}
   - component: {fileID: 559952247}
+  - component: {fileID: 559952248}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1454,6 +1455,20 @@ MonoBehaviour:
   pistolAmmo: 20
   shotgunAmmo: 10
   assaultRifleAmmo: 50
+--- !u!114 &559952248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559952241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a0da3a0408f47d6a60ebca36200ce4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  armor: 20
+  gameUI: {fileID: 880182448}
 --- !u!1 &576126798
 GameObject:
   m_ObjectHideFlags: 0

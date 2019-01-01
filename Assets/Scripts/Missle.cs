@@ -30,4 +30,18 @@ public class Missle : MonoBehaviour {
         yield return new WaitForSeconds(10);
         Destroy(gameObject);
     }
+
+    private void OnCollisionEnter(Collision collider)
+    {
+
+        //When the missle collides with the player capsule this method is called.
+        // we check if this collision occurs based on its tag, we also check if the player is active (may be in gameover state)
+        // the player takes the damage based on the dmg value, once the missle hits, it gets destroyed
+        if (collider.gameObject.GetComponent<Player>() != null
+            && collider.gameObject.tag == "Player")
+        {
+            collider.gameObject.GetComponent<Player>().TakeDamage(damage);
+        }
+        Destroy(gameObject);
+    }
 }
