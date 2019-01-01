@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 33000011134398012}
   - component: {fileID: 23000013218603696}
   - component: {fileID: 135000014043377368}
-  - component: {fileID: 95000010806688042}
+  - component: {fileID: 95141420799257070}
   m_Layer: 0
   m_Name: RobotRampage_BotBall_v1
   m_TagString: Untagged
@@ -1772,24 +1772,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!95 &95000010806688042
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013690789182}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!95 &95000010845392324
 Animator:
   serializedVersion: 3
@@ -1800,6 +1782,24 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: fb900ac847b684cda925ff9b43688031, type: 3}
   m_Controller: {fileID: 9100000, guid: 899ac4b043c83124482cb426f7a23df9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &95141420799257070
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013690789182}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f8ed2cef574de4df0a6d2135a1be54a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1823,6 +1823,7 @@ MonoBehaviour:
   health: 14
   range: 150
   fireRate: 2
+  robot: {fileID: 95000010845392324}
   missleFireSpot: {fileID: 4000012043077664}
 --- !u!135 &135000014043377368
 SphereCollider:
