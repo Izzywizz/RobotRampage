@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4000011314023662}
   - component: {fileID: 135000012570106336}
   - component: {fileID: 54000012538375240}
-  - component: {fileID: 114000013138569080}
+  - component: {fileID: 114905018458335320}
   m_Layer: 9
   m_Name: RobotMissileBlue
   m_TagString: Untagged
@@ -71,7 +71,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010020854282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.976177, y: -1.6124446e-16, z: 9.761805}
+  m_LocalPosition: {x: 11.375952, y: -2.799129e-16, z: 15.106154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000013263373908}
@@ -180,7 +180,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000013138569080
+--- !u!114 &114905018458335320
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010020854282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72cb9ab62dece404c9b87743b3173672, type: 3}
+  m_Script: {fileID: 11500000, guid: cb609f111b5e04b74b5d008ae636f21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30

@@ -1825,6 +1825,8 @@ MonoBehaviour:
   fireRate: 3
   robot: {fileID: 95000013639344970}
   missleFireSpot: {fileID: 4000011028213440}
+  misslePrefab: {fileID: 1000012840967064, guid: b01d0670dae754544a163a4b6932d91b,
+    type: 2}
 --- !u!135 &135000012561474720
 SphereCollider:
   m_ObjectHideFlags: 1

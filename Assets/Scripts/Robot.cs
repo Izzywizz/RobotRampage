@@ -21,6 +21,9 @@ public class Robot : MonoBehaviour {
     public Transform missleFireSpot;
     UnityEngine.AI.NavMeshAgent agent; //NavMesh for the robot
 
+    [SerializeField]
+    GameObject misslePrefab; //the prefab for the missle
+
 	// Use this for initialization
 	void Start () {
 
@@ -55,6 +58,10 @@ public class Robot : MonoBehaviour {
 
     private void fire()
     {
-        robot.Play("Fire");
+        //Create a misslePrefab then sets its position and rotation to that of the robots firing spot/
+        GameObject missle = Instantiate(misslePrefab);
+        missle.transform.position = missleFireSpot.transform.position;
+        missle.transform.rotation = missleFireSpot.transform.rotation;
+        robot.Play("Fire"); //animation for the robot to fire
     }
 }

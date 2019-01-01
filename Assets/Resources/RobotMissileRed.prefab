@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4000010864416632}
   - component: {fileID: 135000010599554370}
   - component: {fileID: 54000013140711198}
-  - component: {fileID: 114000010013938270}
+  - component: {fileID: 114838959609239572}
   m_Layer: 9
   m_Name: RobotMissileRed
   m_TagString: Untagged
@@ -71,7 +71,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010056780112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.663383, y: -3.520876e-17, z: 4.0856614}
+  m_LocalPosition: {x: 11.612164, y: -2.3174734e-16, z: 12.936972}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000013771285980}
@@ -180,7 +180,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000010013938270
+--- !u!114 &114838959609239572
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010056780112}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72cb9ab62dece404c9b87743b3173672, type: 3}
+  m_Script: {fileID: 11500000, guid: cb609f111b5e04b74b5d008ae636f21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
