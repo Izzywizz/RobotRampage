@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 54000012707587442}
   - component: {fileID: 195000011206340114}
   - component: {fileID: 82000014255239230}
-  - component: {fileID: 114000011501840890}
+  - component: {fileID: 114737561002453750}
   m_Layer: 8
   m_Name: BlueRobot
   m_TagString: Untagged
@@ -1781,7 +1781,7 @@ Animator:
   m_GameObject: {fileID: 1000013407352668}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 63d1d4b245e70499a83e667de6b66fd6, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1808,7 +1808,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000011501840890
+--- !u!114 &114737561002453750
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1816,20 +1816,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013283459368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b59a8733a6a4a63b46f1fccac339a9, type: 3}
+  m_Script: {fileID: 11500000, guid: e28d9cb894a54418a8d0f44624584f39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   robotType: BlueRobot
-  missileprefab: {fileID: 1000010020854282, guid: 9976923b00f0fd34a98bc13985b75759,
-    type: 2}
-  robot: {fileID: 95000013658139330}
   health: 10
   range: 200
   fireRate: 1
-  deathSound: {fileID: 8300000, guid: dcafca2c8c84659449cec173016e2e69, type: 3}
-  fireSound: {fileID: 8300000, guid: 91ddb167c9d625943aa8146c45f480e4, type: 3}
-  weakHitSound: {fileID: 8300000, guid: 7efdedc2dd48787489f43bb54ea2b443, type: 3}
-  missileFireSpot: {fileID: 4000010701344762}
+  missleFireSpot: {fileID: 4000010701344762}
 --- !u!135 &135000014201635412
 SphereCollider:
   m_ObjectHideFlags: 1

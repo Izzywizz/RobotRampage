@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 54000013540776428}
   - component: {fileID: 195000014275328188}
   - component: {fileID: 82000012485114050}
-  - component: {fileID: 114000012594985498}
+  - component: {fileID: 114019851428114874}
   m_Layer: 8
   m_Name: YellowRobot
   m_TagString: Untagged
@@ -887,7 +887,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010332420218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.6800532, y: 1.8792236, z: 19.19089}
+  m_LocalPosition: {x: 4.8670774, y: 1.875239, z: 25.11815}
   m_LocalScale: {x: 3.599439, y: 3.599439, z: 3.599439}
   m_Children:
   - {fileID: 4000013968732232}
@@ -1799,7 +1799,7 @@ Animator:
   m_GameObject: {fileID: 1000010122187620}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 63d1d4b245e70499a83e667de6b66fd6, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1808,7 +1808,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000012594985498
+--- !u!114 &114019851428114874
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1816,20 +1816,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010332420218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b59a8733a6a4a63b46f1fccac339a9, type: 3}
+  m_Script: {fileID: 11500000, guid: e28d9cb894a54418a8d0f44624584f39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  robotType: YellowRobot
-  missileprefab: {fileID: 1000012840967064, guid: b01d0670dae754544a163a4b6932d91b,
-    type: 2}
-  robot: {fileID: 95000013639344970}
+  robotType: 
   health: 20
   range: 300
   fireRate: 3
-  deathSound: {fileID: 8300000, guid: dcafca2c8c84659449cec173016e2e69, type: 3}
-  fireSound: {fileID: 8300000, guid: 91ddb167c9d625943aa8146c45f480e4, type: 3}
-  weakHitSound: {fileID: 8300000, guid: 7efdedc2dd48787489f43bb54ea2b443, type: 3}
-  missileFireSpot: {fileID: 4000011028213440}
+  missleFireSpot: {fileID: 4000011028213440}
 --- !u!135 &135000012561474720
 SphereCollider:
   m_ObjectHideFlags: 1
