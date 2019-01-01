@@ -693,7 +693,7 @@ PlayerSettings:
   cloudServicesEnabled:
     Analytics: 0
     Build: 0
-    Collab: 0
+    Collab: 1
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
@@ -702,9 +702,9 @@ PlayerSettings:
     Unity_Ads: 0
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: c38081af-abfc-4222-ae7a-3aa7332e8d3e
+  projectName: Robot Rampage
+  organizationId: izzywizz
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
