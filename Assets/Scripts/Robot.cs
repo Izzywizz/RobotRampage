@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class Robot : MonoBehaviour {
 
+    [SerializeField]
+    private AudioClip deathSound;
+    [SerializeField]
+    private AudioClip fireSound;
+    [SerializeField]
+    private AudioClip weakHitSound;
+
+
     [SerializeField]//exposing the attribute to the Inspector again with Serialize but not other scripts
     private string robotType; //red/blue or yellow robot, this variable name matches a Constant name we've give earlier
 
@@ -31,10 +39,12 @@ public class Robot : MonoBehaviour {
         isDead = false;
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        Debug.Log("Robot's Health: " + health);
+
+    }
+
+    // Update is called once per frame
+    void Update () {
         //2 - check for dead robots, no zombie robts allowed.
         if (isDead)
         {
@@ -63,5 +73,38 @@ public class Robot : MonoBehaviour {
         missle.transform.position = missleFireSpot.transform.position;
         missle.transform.rotation = missleFireSpot.transform.rotation;
         robot.Play("Fire"); //animation for the robot to fire
+        GetComponent<AudioSource>().PlayOneShot(fireSound);
+    }
+
+    //1 - play death animation if robots heathl reaches 0
+    public void TakeDamage(int amount)
+    {
+        if (isDead)
+        {
+            return;
+        }
+
+        Debug.Log("Robot's Amount Damage: " + amount);
+        health -= amount;
+
+        if (health <= 0)
+        {
+            isDead = true;
+            robot.Play("Die");
+            StartCoroutine("DestroyRobot");
+            Game.RemoveEnemy(); //reduces the enemy count by 1 and updates the UI
+            GetComponent<AudioSource>().PlayOneShot(deathSound);
+        }
+        else
+        {
+            GetComponent<AudioSource>().PlayOneShot(weakHitSound);
+        }
+    }
+
+    //2 - adds a small delay before destroying the robot. Giving the animation tie to finish.
+    IEnumerator DestroyRobot()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Destroy(gameObject);
     }
 }

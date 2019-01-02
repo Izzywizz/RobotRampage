@@ -8,8 +8,8 @@ public class Missle : MonoBehaviour {
     public int damage = 10; // the damage done to the player
 
 	// Use this for initialization
-    /* In very simplistic terms, a coroutine is related to threads/ and running multiple things aat one
-     *  A coroutine is a much pleasant way of handing threads, it runs code at a certain designated time. They run on the main thread but only at intevals
+    /*  In very simplistic terms, a coroutine is related to threads/ and running multiple things at once
+     *  A coroutine is a much pleasant way of handling threads, it runs code at a certain designated time. They run on the main thread but only at specific intevals
      *  Coroutines take methods that return IEnumerator. These deciede the duration of the coroutinbe
      */   
 	void Start () {

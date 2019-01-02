@@ -36,9 +36,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4000011562394348}
-  - component: {fileID: 114000011994198360}
-  - component: {fileID: 54000010068661190}
-  - component: {fileID: 65000012670993726}
+  - component: {fileID: 114402712518085860}
+  - component: {fileID: 54419319187199080}
+  - component: {fileID: 65215588448472048}
   m_Layer: 0
   m_Name: PickupArmor
   m_TagString: Untagged
@@ -438,7 +438,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013748213830}
   m_Mesh: {fileID: 4300002, guid: 5f27c30c422fc4cbc8056b935b45262d, type: 3}
---- !u!54 &54000010068661190
+--- !u!54 &54419319187199080
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -453,7 +453,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65000012670993726
+--- !u!65 &65215588448472048
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -474,7 +474,7 @@ Animator:
   m_GameObject: {fileID: 1000014203716030}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 69c685b251b59447b8f9e107107fd139, type: 2}
+  m_Controller: {fileID: 9100000, guid: 067f86bf9eeab44e2a5b61f27e9445cf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -483,7 +483,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000011994198360
+--- !u!114 &114402712518085860
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000011562791420}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da315ecad579b4697b83ac67024ea902, type: 3}
+  m_Script: {fileID: 11500000, guid: 881243086256b43fcb62a4f3b9ffb8ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   type: 5

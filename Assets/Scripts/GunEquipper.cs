@@ -14,6 +14,9 @@ public class GunEquipper : MonoBehaviour {
 
     GameObject activeGun;
 
+    [SerializeField]
+    private Ammo ammo;
+
 	void Start () {
         // Starting gun is initilized to be the pistol
         activeWeaponType = Constants.Pistol;
@@ -63,5 +66,6 @@ public class GunEquipper : MonoBehaviour {
 
         weapon.SetActive(true);
         activeGun = weapon;
+        gameUI.SetAmmoText(ammo.GetAmmo(activeGun.tag));
     }
 }

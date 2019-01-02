@@ -1819,6 +1819,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e28d9cb894a54418a8d0f44624584f39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSound: {fileID: 8300000, guid: dcafca2c8c84659449cec173016e2e69, type: 3}
+  fireSound: {fileID: 8300000, guid: 91ddb167c9d625943aa8146c45f480e4, type: 3}
+  weakHitSound: {fileID: 8300000, guid: 7efdedc2dd48787489f43bb54ea2b443, type: 3}
   robotType: 
   health: 20
   range: 300

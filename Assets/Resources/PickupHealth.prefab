@@ -120,9 +120,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4000011551187280}
-  - component: {fileID: 114000012753252376}
-  - component: {fileID: 54000012207656324}
-  - component: {fileID: 65000010065503416}
+  - component: {fileID: 114540758520655000}
+  - component: {fileID: 54569747122749642}
+  - component: {fileID: 65250740153642154}
   m_Layer: 0
   m_Name: PickupHealth
   m_TagString: Untagged
@@ -438,7 +438,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011372410634}
   m_Mesh: {fileID: 4300006, guid: 6c43464943ca24aeda68fdd20b321b41, type: 3}
---- !u!54 &54000012207656324
+--- !u!54 &54569747122749642
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -453,7 +453,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65000010065503416
+--- !u!65 &65250740153642154
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -474,7 +474,7 @@ Animator:
   m_GameObject: {fileID: 1000010825407962}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 69c685b251b59447b8f9e107107fd139, type: 2}
+  m_Controller: {fileID: 9100000, guid: 067f86bf9eeab44e2a5b61f27e9445cf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -483,7 +483,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114000012753252376
+--- !u!114 &114540758520655000
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013641749378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da315ecad579b4697b83ac67024ea902, type: 3}
+  m_Script: {fileID: 11500000, guid: 881243086256b43fcb62a4f3b9ffb8ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   type: 4

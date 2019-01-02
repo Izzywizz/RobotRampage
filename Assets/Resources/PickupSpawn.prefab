@@ -9,17 +9,17 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1000010446277168}
+  m_RootGameObject: {fileID: 1217554231535536}
   m_IsPrefabParent: 1
---- !u!1 &1000010446277168
+--- !u!1 &1217554231535536
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4000013773136126}
-  - component: {fileID: 114000010226094732}
+  - component: {fileID: 4637932313272020}
+  - component: {fileID: 114475262136010016}
   m_Layer: 0
   m_Name: PickupSpawn
   m_TagString: Untagged
@@ -27,33 +27,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000013773136126
+--- !u!4 &4637932313272020
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010446277168}
+  m_GameObject: {fileID: 1217554231535536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.171509, y: 3.7800663, z: 15.815401}
+  m_LocalPosition: {x: -8.987553, y: 1.2999136, z: -3.7055755}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114000010226094732
+--- !u!114 &114475262136010016
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010446277168}
+  m_GameObject: {fileID: 1217554231535536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94dcd9ba8663446b4b2d7912c34abb28, type: 3}
+  m_Script: {fileID: 11500000, guid: 536db476148e14dc08db6b47f0f0fa13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pickups:
-  - {fileID: 1000012198479772, guid: 940aaf910dbb38a48b630d4a7f743587, type: 2}
-  - {fileID: 1000013641749378, guid: f5e95b12a937f0d4995d12cf6a35495a, type: 2}
   - {fileID: 1000012491731428, guid: 9f832004461f1284d9d497e0fae5093f, type: 2}
+  - {fileID: 1000012198479772, guid: 940aaf910dbb38a48b630d4a7f743587, type: 2}
   - {fileID: 1000012889590222, guid: f63c0b459fd76144792bca76fd75aa66, type: 2}
   - {fileID: 1000011562791420, guid: ad56adbfc10cea94ab0f1c6d3abdf578, type: 2}
+  - {fileID: 1000013641749378, guid: f5e95b12a937f0d4995d12cf6a35495a, type: 2}
