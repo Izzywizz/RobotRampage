@@ -34,7 +34,7 @@ public class Game : MonoBehaviour {
         isGameOver = false;
         Time.timeScale = 1;
         waveCountDown = 30;
-        enemiesLeft = 0;
+        enemiesLeft = 4;
         StartCoroutine("updateWaveTimer");
     }
 
@@ -79,6 +79,7 @@ public class Game : MonoBehaviour {
     //This method is called when a robot is killed, it removes it from the count and updates the UI
     public static void RemoveEnemy()
     {
+        Debug.Log(" Enemies " + singleton.enemiesLeft);
         singleton.enemiesLeft--;
         singleton.gameUI.SetEnemyText(singleton.enemiesLeft);
 
